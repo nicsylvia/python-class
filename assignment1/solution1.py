@@ -1,3 +1,5 @@
+print('Welcome to the grading system. I hope you have a good grade.')
+print('    ')
 score = input('Enter Your Score: ')
 
 if score <= str(34):
