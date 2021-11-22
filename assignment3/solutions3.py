@@ -1,0 +1,1 @@
+# 3. Create a function in Python that will determine average of any numbers in a Python list.
