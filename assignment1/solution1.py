@@ -15,22 +15,22 @@ print('Welcome to the grading system. I hope you have a good grade.')
 print('    ')
 score = input('Enter Your Score: ')
 
-if score >= str(0) and score <= 34:
+if score >= str(0) and score <= str(34):
     print(f'Your score is {score} and you failed.Try harder next time!!')
 
-elif score <= str(35) and score <= 44:
+elif score >= str(35) and score <= str(44):
     print(f'Your score is {score} and you pass.')
 
-elif score <= str(45) and score <= 49:
+elif score >= str(45) and score <= str(49):
     print(f'Your score is {score}, this is a fair score. Intensify your efforts.')
 
-elif score <= str(50) and score <= 59:
+elif score >= str(50) and score <= str(59):
     print(f'Your score is {score} and this is good.')
 
-elif score <= str(60) and score <= 69:
+elif score >= str(60) and score <= str(69):
     print(f'Your score is {score} and this is very good.')
 
-elif score <= str(70) and score <= 100 :
+elif score >= str(70) and score <= str(100) :
     print(f'Your score is {score} and this is excellent. Welldone')
 
 # elif score < str(1):
@@ -40,4 +40,4 @@ elif score <= str(70) and score <= 100 :
 #     print(f'Please check well again. This score {score} is invalid')
 
 else:
-    print('Assignment not done properly')
+    print('This score is invalid')

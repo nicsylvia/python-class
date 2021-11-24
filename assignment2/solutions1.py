@@ -10,7 +10,7 @@ print(f'Multiplication Table of {Number}: ')
 n = 1
 
 while n <= 12:
-    print(f'{Number} x {n}= {Number} * {n}')
+    print(Number, 'x', n, '=', Number * n)
     n += 1
 
 print('THANK YOU FOR CODING WITH US.')

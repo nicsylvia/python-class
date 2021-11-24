@@ -7,4 +7,4 @@ def Total(lower, upper):
         lower += 1
     print(upper)
 
-Total(1, 3)
+Total(1, 4)
