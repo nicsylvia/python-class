@@ -7,6 +7,8 @@ list_of_names = ['Joan', 'Ramadan', 'Sylvia', 'Davidson', 'Daniel', 'Abdul', 'Al
 intro = "Hello People, Welcome to the grand-finale of Alabian Solutions lucky draw. Please enter your name to check if you're among the lucky winners."
 print(intro.upper())
 
+
+
 print('           ')
 
 names = input('Enter Your Name: ')
@@ -36,15 +38,15 @@ elif names == list_of_names[10]:
 else:
     print(f'Oops!! sorry {names} your name is not in the list. Try again next time. Goodluck')
 
-print('             ')
+    print('             ')
 
-print('Here are the names on the list.')
+    print('Here are the names on the list.')
 
-input('Press y if you still want to view the name: ')
+    input('Press y if you still want to view the name: ')
 
-print('       ')
+    print('       ')
 
-print('The Lucky Winners are: ')
+    print('The Lucky Winners are: ')
 for names in list_of_names:
     print(names)
 
